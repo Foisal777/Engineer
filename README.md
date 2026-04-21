@@ -37,19 +37,25 @@ A Python-based tool for generating satirical memes.
 
 ## Setup Instructions
 
+### On PC/Linux:
 1. Install Node.js and npm.
 2. Run `npm install` to install dependencies (Three.js, Vite).
 3. Run `npm run dev` to start development server.
-4. For Termux: Install Node.js in Termux, clone repo, run commands.
+4. Open http://localhost:5173 in browser.
 
-## Push to GitHub
+### On Termux (Android):
+1. Install Termux from F-Droid or Google Play.
+2. Install Node.js: `pkg install nodejs`
+3. Clone the repo: `git clone https://github.com/Foisal777/Engineer.git`
+4. Cd into folder: `cd Engineer`
+5. Install deps: `npm install`
+6. Run dev server: `npm run dev`
+7. Open in browser or use Termux's built-in browser.
 
-After setup, commit and push:
-```
-git add .
-git commit -m "Initial setup of Moha-Engineering: Reloaded"
-git push origin main
-```
+### Python Meme Tool:
+- Install Python: `pkg install python` (Termux)
+- Install deps: `pip install -r requirements.txt`
+- Run: `python meme_generator.py`
 
 ## Development Notes
 - Uses Three.js for 3D rendering.
