@@ -28,7 +28,12 @@ The game satirizes the political and economic crises in Bangladesh through exagg
 - Render: High quality WebGL (equivalent to 8K on capable hardware)
 - Effects: Ray-tracing like shadows, depth of field simulation
 - Bengali signs: Blurred for aesthetic context
-- Multi-language: JavaScript (core), HTML/CSS (UI), potential Python backend
+- Multi-language: JavaScript (core 3D game), HTML/CSS (UI), Python (meme generator tool)
+
+## Meme Generator Tool
+A Python-based tool for generating satirical memes.
+- Install Python dependencies: `pip install -r requirements.txt`
+- Run: `python meme_generator.py`
 
 ## Setup Instructions
 
